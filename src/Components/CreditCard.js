@@ -15,9 +15,11 @@ function CreditCard({ number, expirationMonth, expirationYear, bank, owner, bgCo
             <p>Expires {expirationMonth}</p>
             <p>{bank}</p>
             <p>{owner}</p>
+            <p>**** **** 
             {
                 creditCardNum(number)
             }
+            </p>
             </div>
     )
 }
