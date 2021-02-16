@@ -1,7 +1,6 @@
 import React from 'react';
 import IdCard from './Components/IdCard';
 import './App.css';
-import { data } from './data/berlin';
 import Greetings from './Components/Greetings';
 import Random from './Components/Random';
 import BoxColor from './Components/BoxColor';
@@ -13,6 +12,8 @@ import ClickablePicture from './Components/ClickablePicture';
 import Dice from './Components/Dice';
 import Carousel from './Components/Carousel';
 import NumbersTable from './Components/NumbersTable'
+import Facebook from './Components/Facebook'
+import SignupPage from './Components/SignupPage'
 
 function App() {
   return (
@@ -91,6 +92,10 @@ function App() {
       />
       <h2>Iteration 12</h2>
       <NumbersTable limit={12} />
+      <h2>Iteration 13&14</h2>
+      <Facebook />
+      <h2>Iteration 15</h2>
+      <SignupPage />
     </div>
   );
 }

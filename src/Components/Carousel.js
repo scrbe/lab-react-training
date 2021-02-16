@@ -13,7 +13,7 @@ function Carousel({ imgs }) {
         }
         console.log(idx)
     }
-    
+
     return <div>
         <button onClick={handleButton} name='left'>Left</button>
         <img src={img}></img>
